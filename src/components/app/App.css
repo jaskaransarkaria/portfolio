@@ -1,0 +1,133 @@
+#appContainer {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url("/wallpaper.jpg"); */
+  background-color: rgba(255, 246, 213, 95);
+  -webkit-animation: appContainer 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: appContainer 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+#skillsContainer {
+  position: absolute;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 55vh;
+  top: 0%;
+  right: 50%;
+  transform: translate(50%, 45%);
+  display: flex;
+  flex-direction: row;
+}
+
+#skillsPopUp {
+  width: inherit;
+  height: inherit;
+}
+#aboutPopUp {
+  width: inherit;
+  height: inherit;
+}
+#portfolioPopUp {
+  width: inherit;
+  height: inherit;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+#linksContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin: 1vw;
+  left: 0%;
+  bottom: 1vh;
+  width: 100vw;
+}
+
+#twitter {
+  bottom: 1vh;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+
+#linkedIn {
+  bottom: 1vh;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+
+#gitHub {
+  bottom: 1vh;
+  order: 3;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+
+#portfolioButton {
+  width: 22vw;
+  height: 22vw;
+}
+#skillsButton {
+  width: 22vw;
+  height: 22vw;
+}
+#aboutButton {
+  width: 22vw;
+  height: 22vw;
+}
+
+@-webkit-keyframes appContainer {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes appContainer {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.links {
+  color: black;
+  font-size: 4vh;
+}
+
+#myPortfolio {
+  position: absolute;
+  right: 90vw;
+  bottom: 1vh;
+  color: black;
+  font-size: 4vh;
+  text-decoration: underline black;
+}
+
+h2 {
+  font-size: 4.5vh;
+  text-align: left;
+  color: black;
+  margin-bottom: 0%;
+}

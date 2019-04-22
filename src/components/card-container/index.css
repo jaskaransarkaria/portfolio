@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 500px;
+  width: 1000px;
+  margin: 10px auto;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.nextPrevButton {
+  height: 20%;
+  bottom: 10%;
+}

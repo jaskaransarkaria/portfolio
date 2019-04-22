@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58333"
+   version="1.1"
+   id="svg972"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="PORTFOLIO BUTTON.svg">
+  <defs
+     id="defs966" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="943"
+     inkscape:window-height="951"
+     inkscape:window-x="133"
+     inkscape:window-y="84"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata969">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-32.416668)">
+    <rect
+       id="rect34-3"
+       width="255.89848"
+       height="255.89847"
+       x="4.6400452"
+       y="36.688236"
+       style="fill:#fff6d5;fill-opacity:0.37254902;stroke:#009ee1;stroke-width:8.68485641;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       ry="17.974052" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.33564377px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#009ee1;fill-opacity:1;stroke:none;stroke-width:0.93339115"
+       x="34.07077"
+       y="270.427"
+       id="text854-7"><tspan
+         sodipodi:role="line"
+         id="tspan852-5"
+         x="34.07077"
+         y="270.427"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.11303902px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#009ee1;fill-opacity:1;stroke-width:0.93339115">PORTFOLIO</tspan></text>
+    <path
+       style="fill:#009ee1;fill-opacity:1;stroke-width:0.2500805"
+       d="m 58.21088,205.11182 c -1.60606,-0.50934 -2.47555,-1.04962 -3.48167,-2.1633 -1.91767,-2.1226 -1.76227,0.83249 -1.83713,-34.93732 l -0.067,-32.07282 h 31.24781 31.24779 l 0.0794,5.73419 c 0.0875,6.29768 0.10231,6.36112 1.80125,7.62964 0.67402,0.50326 0.96608,0.51561 12.15764,0.51561 11.19156,0 11.48359,-0.0104 12.1576,-0.51561 1.69905,-1.26852 1.71408,-1.33196 1.80129,-7.62964 l 0.0797,-5.73419 h 31.24775 31.24778 l -0.067,32.07282 c -0.0631,30.22654 -0.0928,32.12776 -0.51516,33.02752 -0.68343,1.4562 -2.29386,3.04919 -3.74653,3.706 l -1.30722,0.59097 -70.52272,0.047 c -56.38126,0.0371 -70.72332,-0.0178 -71.52307,-0.27056 z m 64.14571,-69.17344 v -7.00225 h 7.00225 7.00225 v 7.00225 7.00225 h -7.00225 -7.00225 z m -69.46761,-21.56947 0.0702,-14.567177 0.70365,-1.432877 c 0.82218,-1.67425 2.00664,-2.73444 3.92285,-3.5113 l 1.37549,-0.5576 24.807,-0.0685 24.80701,-0.0685 0.0762,-7.55908 c 0.0741,-7.39019 0.0893,-7.58623 0.67413,-8.77405 0.79548,-1.61596 2.05517,-2.83374 3.75666,-3.63166 l 1.3971,-0.65518 h 14.75472 c 13.94393,0 14.82309,0.0247 15.99809,0.47953 1.6335,0.62995 3.43471,2.34452 4.16902,3.96847 0.57033,1.26132 0.59207,1.54671 0.66576,8.73791 l 0.0765,7.43406 24.80681,0.0685 24.8068,0.0685 1.37544,0.5576 c 1.91633,0.77689 3.10128,1.83751 3.92314,3.51152 l 0.70341,1.432657 0.072,14.567177 0.072,14.56722 h -31.2383 -31.23822 l -0.10936,-2.08463 c -0.12665,-2.41371 -0.6228,-3.49635 -1.96282,-4.28357 -0.83637,-0.49136 -1.25244,-0.50902 -11.99501,-0.50902 -12.34444,0 -12.07245,-0.0351 -13.2848,1.66838 -0.46176,0.64848 -0.59013,1.21967 -0.6755,3.00475 l -0.10548,2.20409 H 84.05598 52.81877 Z m 90.72445,-27.196264 v -7.00222 h -14.00454 -14.0045 v 7.00222 7.00229 h 14.0045 14.00454 z"
+       id="path964"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
