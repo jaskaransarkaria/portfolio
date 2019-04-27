@@ -25,7 +25,7 @@
   }
   25%,
   75% {
-    opacity: 0;
+    opacity: 0.8;
   }
 }
 .myName {
@@ -36,10 +36,10 @@
   font-weight: bold;
   font-size: 10vh;
   margin-bottom: 0.6vh;
-
+  /* 
   text-shadow: -1px 1px 0 rgba(255, 237, 0, 255),
     -2px 2px 0 rgba(255, 237, 0, 255), -3px 3px 0 rgba(255, 237, 0, 255),
-    -6px 6px 0 rgba(227, 0, 122, 255), -4px 4px 0 rgba(255, 237, 0, 255);
+    -6px 6px 0 rgba(227, 0, 180, 255), -4px 4px 0 rgba(255, 237, 0, 255); */
 
   -webkit-animation: myName 2.5s both;
   animation: myName 2.5s both;
@@ -50,7 +50,7 @@
   text-align: center;
   margin-top: 4vh;
   margin: 1vh;
-
+  text-shadow: 1.25px 1.25px 0 rgba(0, 0, 0, 0.35);
   font-size: 4.5vh;
   text-align: center;
   color: rgba(0, 158, 225, 255);
