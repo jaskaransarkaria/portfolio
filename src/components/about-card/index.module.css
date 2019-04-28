@@ -1,0 +1,188 @@
+#aboutPara {
+  color: var(--pink-theme);
+  top: 0%;
+  font-size: 3vw;
+  width: 68%;
+  margin-top: 0.5%;
+  margin-left: 6%;
+  margin-right: 2%;
+}
+#aboutImgContainer {
+  position: relative;
+  display: inline-block;
+  margin-left: 4%;
+  height: 33vh;
+  width: 33vh;
+}
+
+#sunsplashMe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0.8vw solid var(--blue-theme);
+  border-radius: 100vw;
+}
+
+#imgAndTextContainer {
+  display: flex;
+}
+
+#mediumIconContainer {
+  height: 5vh;
+
+  width: 5vh;
+
+  position: relative;
+
+  display: inline-block;
+
+  margin-left: 4%;
+
+  top: 11.5%;
+
+  bottom: 100%;
+
+  border-radius: 0.2em;
+}
+
+#blogTag {
+  position: absolute;
+  color: var(--pink-theme);
+  font-size: 1.8vw;
+  width: 20%;
+  margin-left: 4%;
+  top: 72%;
+}
+
+#mediumIcon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0.4vw solid var(--blue-theme);
+  border-radius: 0.2em;
+}
+
+#rightArrowContainer {
+  position: absolute;
+  top: 52.5vh;
+  left: 72.5vw;
+  transform: translate(50%, 50%);
+  width: 6vw;
+  height: 6vw;
+  border-radius: 100%;
+}
+
+#leftArrowContainer {
+  position: absolute;
+  top: 52.5vh;
+  left: 67.5vw;
+  transform: translate(50%, 50%);
+  width: 6vw;
+  height: 6vw;
+  border-radius: 100%;
+}
+
+#rightArrow {
+  position: absolute;
+  width: 6vw;
+  height: 6vw;
+}
+#leftArrow {
+  transform: rotate(180deg);
+  position: absolute;
+  width: 6vw;
+  height: 6vw;
+}
+
+#aboutTitle {
+  color: var(--yellow-theme);
+  text-align: center;
+  margin-top: 0.5%;
+  font-size: 4vw;
+}
+
+.cardContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: (inherit);
+  border: 14px solid var(--yellow-theme);
+  border-radius: 4em;
+}
+
+.jelloVertical {
+  -webkit-animation: jelloVertical 1.25s both;
+  animation: jelloVertical 2.25s both;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+
+@-webkit-keyframes jelloVertical {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  15% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  20% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  25% {
+    -webkit-transform: scale3d(0.85, 1.15, 1);
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  32.5% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  37.5% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jelloVertical {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  15% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  20% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  25% {
+    -webkit-transform: scale3d(0.85, 1.15, 1);
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  32.5% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  37.5% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}

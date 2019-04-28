@@ -6,11 +6,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
-  width: 50vw;
+  height: 100%;
+  width: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  --blue-theme: rgba(0, 158, 225, 255);
+  --pink-theme: rgba(255, 2, 145, 255);
+  --yellow-theme: rgba(255, 150, 0, 255);
 }

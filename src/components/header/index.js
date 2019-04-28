@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import css from "./index.module.css";
 
-const Header = () => {
-  // handle mouse movement to re assign the text shadow on name
-  // on hover on name calculate angle from text to name
-  // adjust the angle
+const yellowVar = getComputedStyle(document.documentElement).getPropertyValue(
+  "--yellow-theme"
+);
+const pinkVar = getComputedStyle(document.documentElement).getPropertyValue(
+  "--pink-theme"
+);
 
-  const [textShadow, useTextShadow] = useState({
-    textShadow: `-2px 2px 0 rgba(255, 237, 0, 255),
-  -4px 4px 0 rgba(255, 2, 255, 255)`
+const Header = () => {
+  const [textShadow, setTextShadow] = useState({
+    textShadow: `-2px 2px 0 ${yellowVar},
+  -4px 4px 0 ${pinkVar}`
   });
 
   function buildShadow(posX, posY) {
@@ -23,12 +26,12 @@ const Header = () => {
       shadow.push(
         `-${(posX * i) / (multi * 2) -
           ((posX * i) / (multi * 2) / 100) * 90}px ${(posY * i) / (multi * 2) -
-          ((posY * i) / (multi * 2) / 100) * 90}px 0px rgba(255, 2, 255, ${1 -
+          ((posY * i) / (multi * 2) / 100) * 90}px 0px rgba(255, 2, 145, ${1 -
           i / multi}),
           ${(posX * i) / (multi * 2) -
             ((posX * i) / (multi * 2) / 100) * 90}px ${(posY * i + 2) /
           (multi * 2) -
-          ((posY * i) / (multi * 2) / 100) * 90}px 0px rgba(255, 237, 0, ${1 -
+          ((posY * i) / (multi * 2) / 100) * 90}px 0px rgba(255, 150, 0, ${1 -
           i / multi})`
       );
     }
@@ -38,17 +41,17 @@ const Header = () => {
   function stopShadow() {
     const keyframes = `@keyframes nameLeaveAnim {
       10% ${textShadow} 
-      90% {textShadow: -8px 4px 0 rgba(255, 237, 0, 255),
-        8px 4px 0 rgba(255, 2, 255, 255)}
-      100% { textShadow: -2px 2px 0 rgba(255, 237, 0, 255),
-      -4px 4px 0 rgba(255, 2, 255, 255)
+      90% {textShadow: -8px 4px 0 ${yellowVar},
+        8px 4px 0 ${pinkVar}}
+      100% { textShadow: -2px 2px 0 ${yellowVar},
+      -4px 4px 0 ${pinkVar}
   }`;
     let styleSheet = document.styleSheets[0];
     styleSheet.insertRule(keyframes, styleSheet.cssRules.length);
 
-    return useTextShadow({
-      textShadow: `-2px 2px 0 rgba(255, 237, 0, 1),
-        -4px 4px 0 rgba(255, 2, 255, 255)`,
+    return setTextShadow({
+      textShadow: `-2px 2px 0 ${yellowVar},
+        -4px 4px 0 ${pinkVar}`,
       animation: `nameLeaveAnim`
       // animationTimingFunction: "linear",
       // animationDuration: "0.6s",
@@ -59,7 +62,7 @@ const Header = () => {
   }
 
   function updateShadows(x, y) {
-    useTextShadow({ textShadow: buildShadow(x, y) });
+    setTextShadow({ textShadow: buildShadow(x, y) });
   }
 
   const getPos = e => {
