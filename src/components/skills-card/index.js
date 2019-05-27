@@ -17,7 +17,7 @@ const SkillsCard = ({ showSkills, resetShowSkills }) => {
         height: "75%",
         width: "85%",
         left: "4%",
-        top: "50%",
+        top: "40%",
         marginLeft: "4%",
         borderRadius: "2vw",
         zIndex: 99,

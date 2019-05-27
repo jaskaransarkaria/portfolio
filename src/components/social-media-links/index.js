@@ -73,59 +73,61 @@ const SocialMediaLinks = () => {
 
   return (
     <div id={css.linksContainer}>
-      <div
-        id={css.linkedInContainer}
-        style={linkedInShadow}
-        onMouseMove={event => getPos(event, "linkedIn")}
-        onMouseOut={() => stopShadow("linkedIn")}
-      >
-        <a
-          id={css.linkedIn}
-          target="_blank"
-          href="https://www.linkedin.com/in/jaskaran-sarkaria/"
+      <div id={css.subLinksContainer}>
+        <div
+          id={css.linkedInContainer}
+          style={linkedInShadow}
+          onMouseMove={event => getPos(event, "linkedIn")}
+          onMouseOut={() => stopShadow("linkedIn")}
         >
-          <img
-            src="/LINKEDIN.svg"
-            className={css.links}
-            alt="linkedIn logo and link"
-          />
-        </a>
-      </div>
-      <div
-        id={css.twitterContainer}
-        style={twitterShadow}
-        onMouseMove={event => getPos(event, "twitter")}
-        onMouseOut={() => stopShadow("twitter")}
-      >
-        <a
-          id={css.twitter}
-          target="_blank"
-          href="https://twitter.com/JaskaranSarkar1"
+          <a
+            id={css.linkedIn}
+            target="_blank"
+            href="https://www.linkedin.com/in/jaskaran-sarkaria/"
+          >
+            <img
+              src="/LINKEDIN.svg"
+              className={css.links}
+              alt="linkedIn logo and link"
+            />
+          </a>
+        </div>
+        <div
+          id={css.twitterContainer}
+          style={twitterShadow}
+          onMouseMove={event => getPos(event, "twitter")}
+          onMouseOut={() => stopShadow("twitter")}
         >
-          <img
-            src="/TWITTER.svg"
-            className={css.links}
-            alt="twitter logo and link"
-          />
-        </a>
-      </div>
-      <div
-        id={css.gitHubContainer}
-        style={gitHubShadow}
-        onMouseMove={event => getPos(event, "gitHub")}
-        onMouseOut={() => stopShadow("gitHub")}
-      >
-        <a
-          target="_blank"
-          href="https://github.com/jaskaransarkaria"
-          id={css.gitHub}
+          <a
+            id={css.twitter}
+            target="_blank"
+            href="https://twitter.com/JaskaranSarkar1"
+          >
+            <img
+              src="/TWITTER.svg"
+              className={css.links}
+              alt="twitter logo and link"
+            />
+          </a>
+        </div>
+        <div
+          id={css.gitHubContainer}
+          style={gitHubShadow}
+          onMouseMove={event => getPos(event, "gitHub")}
+          onMouseOut={() => stopShadow("gitHub")}
         >
-          <img
-            src="/GITHUB.svg"
-            className={css.links}
-            alt="gitHub logo and link"
-          />
-        </a>
+          <a
+            target="_blank"
+            href="https://github.com/jaskaransarkaria"
+            id={css.gitHub}
+          >
+            <img
+              src="/GITHUB.svg"
+              className={css.links}
+              alt="gitHub logo and link"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );

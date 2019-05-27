@@ -81,7 +81,7 @@ const Header = () => {
       >
         JASKARAN SARKARIA
       </h1>
-      <h2 className={css.jobTitle} style={{ margin: "1vh" }}>
+      <h2 className={css.jobTitle} style={{ margin: "1%" }}>
         Full Stack Junior Developer, Birmingham, UK
       </h2>
     </div>

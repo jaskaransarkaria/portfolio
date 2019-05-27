@@ -115,6 +115,7 @@ h2 {
   width: 5vw;
   height: 5vw;
   z-index: 100;
+  cursor: pointer;
 }
 #upArrowContainer {
   position: absolute;
@@ -133,4 +134,5 @@ h2 {
   width: 5vw;
   height: 5vw;
   z-index: 100;
+  cursor: pointer;
 }
